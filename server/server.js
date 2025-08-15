@@ -5,6 +5,16 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Force HTTPS on Heroku
+app.enable('trust proxy');
+app.use((req, res, next) => {
+  if (req.secure) return next();
+  // allow health checks and local dev
+  if (req.headers['x-forwarded-proto'] !== 'https')
+    return res.redirect(301, 'https://' + req.headers.host + req.originalUrl);
+  next();
+});
+
 const clientBuildPath = path.join(__dirname, '..', 'client', 'dist');
 app.use(express.static(clientBuildPath));
 
