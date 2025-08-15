@@ -28,7 +28,9 @@ function Home() {
     <div style={{display:'flex', alignItems:'center', marginTop:'2rem', marginBottom:'2rem', justifyContent:'center', gap:'2rem'}}>
       <img src="/assets/logo.svg" alt="{O} logo" style={{width:'202px', height:'202px', flexShrink:0}} />
       <div style={{textAlign:'left', maxWidth:'600px'}}>
-        <h1 className="brand-badge" style={{fontSize:'2.5rem', marginBottom:'0.5rem'}}>{'{O}'} Oliver.dev</h1>
+        <h1 className="brand-badge" style={{fontSize:'2.5rem', marginBottom:'0.5rem'}}>
+          <span className="brand-o">{'{O}'}</span> <span className="brand-text">Oliver.dev</span>
+        </h1>
         <h2 style={{fontWeight:600, fontSize:'1.3rem', margin:'0 0 1rem 0'}}>About Me</h2>
         <p style={{lineHeight:1.7, margin:'0 0 1rem 0'}}>
           Hi, I'm Oliver Levine—a full-stack developer with a passion for building creative, high-performance web applications. My journey in tech started with a love for problem-solving and a curiosity for how things work under the hood.

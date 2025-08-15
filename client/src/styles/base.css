@@ -86,10 +86,11 @@ a:hover{ text-decoration:underline }
   font-family:var(--font-mono);
   letter-spacing:.5px;
   font-weight:700;
-  background: linear-gradient(90deg, var(--teal_500), var(--orange_500));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+}
+.brand-o {
+  color: var(--orange_500);
+}
+.brand-text {
+  color: var(--teal_500);
 }
 footer{ color:var(--gray_600); padding:2rem 0; text-align:center; margin-top:auto; }
