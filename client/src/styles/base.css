@@ -82,5 +82,14 @@ a:hover{ text-decoration:underline }
 .btn.secondary{ background: var(--orange_500); color:#301400 }
 .grid{ display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:1rem }
 .card{ background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); padding:1rem; border-radius:.75rem }
-.brand-badge{ font-family:var(--font-mono); letter-spacing:.5px; font-weight:700 }
+.brand-badge{
+  font-family:var(--font-mono);
+  letter-spacing:.5px;
+  font-weight:700;
+  background: linear-gradient(90deg, var(--teal_500), var(--orange_500));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 footer{ color:var(--gray_600); padding:2rem 0; text-align:center; margin-top:auto; }
