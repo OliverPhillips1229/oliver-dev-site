@@ -1,34 +1,42 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: '18' }
 
-      # Build your Vite app
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Install deps and build the Vite app in /client
       - run: npm ci --prefix client
       - run: npm run build --prefix client
 
       # SPA fallback + custom domain + disable Jekyll
       - run: cp client/dist/index.html client/dist/404.html
-      - run: echo "oliverlevine.dev" > client/dist/CNAME
+      - run: echo "www.oliverlevine.dev" > client/dist/CNAME
       - run: touch client/dist/.nojekyll
 
-      # (Safety) ensure no README sneaks into the published folder
+      # Optional safety: ensure README doesn't get published
       - run: rm -f client/dist/README.md || true
 
+      # Upload the built site as the artifact for Pages
       - uses: actions/upload-pages-artifact@v3
         with:
           path: client/dist
