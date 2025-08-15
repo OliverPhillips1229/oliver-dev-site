@@ -34,7 +34,7 @@ function Home() {
           Hi, I'm Oliver Levine—a full-stack developer with a passion for building creative, high-performance web applications. My journey in tech started with a love for problem-solving and a curiosity for how things work under the hood.
         </p>
         <p style={{lineHeight:1.7, margin:'0 0 1rem 0'}}>
-          I specialize in JavaScript, React, Node.js, and modern web technologies, but I also enjoy exploring new frameworks and tools. My projects range from dynamic restaurant sites and CRUD apps to interactive games and data-driven dashboards.
+          I specialize in JavaScript, React, Node.js, and modern web technologies, but I also enjoy exploring new frameworks and tools. My projects range from CRUD apps to interactive games and data-driven dashboards.
         </p>
         <p style={{lineHeight:1.7, margin:'0 0 1rem 0'}}>
           I believe in clean code, thoughtful UX, and rapid iteration. Whether collaborating with teams or working solo, I strive to deliver solutions that are both robust and delightful to use.
