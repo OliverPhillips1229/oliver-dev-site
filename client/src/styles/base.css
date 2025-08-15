@@ -96,5 +96,6 @@ a:hover{ text-decoration:underline }
 }
 .brand-text {
   color: var(--teal_500);
+  font-family: var(--font-sans);
 }
 footer{ color:var(--gray_600); padding:2rem 0; text-align:center; margin-top:auto; }
