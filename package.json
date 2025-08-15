@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "node server/server.js",
+    "dev": "concurrently \"npm run dev:client\" \"nodemon server/server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "nodemon": "^3.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1024' height='512' viewBox='0 0 1024 512'>
+  <rect width='1024' height='512' fill='#0B2A33'/>
+  <g transform='translate(0,10)'>
+    <text x='50%' y='48%' text-anchor='middle' font-family='monospace' font-size='200' fill='#F0791B' dominant-baseline='middle'>{O}</text>
+  </g>
+  <text x='50%' y='80%' text-anchor='middle' font-family='Inter, -apple-system, system-ui, sans-serif' font-size='72' fill='#1BA7A3' font-weight='700'>Oliver.dev</text>
+</svg>

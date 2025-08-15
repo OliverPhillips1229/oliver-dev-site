@@ -1,0 +1,44 @@
+[
+  {
+    "title": "VinylVault",
+    "tech": [
+      "MongoDB",
+      "Express",
+      "Node",
+      "EJS"
+    ],
+  "link": "https://github.com/OliverPhillips1229/VinylVault",
+    "blurb": "MEN stack CRUD for vinyl collections with cover art & wishlists.",
+    "tags": [
+      "CRUD",
+      "Uploads",
+      "Collections"
+    ]
+  },
+  {
+    "title": "Tic Tac Toe MVC",
+    "tech": [
+      ".NET",
+      "MVC"
+    ],
+  "link": "https://github.com/OliverPhillips1229/TicTacToe",
+    "blurb": "Single-page game demonstrating model binding and controller/view comms.",
+    "tags": [
+      "Game",
+      "ModelBinding"
+    ]
+  },
+  {
+    "title": "TripsLogApp",
+    "tech": [
+      ".NET",
+      "EF Core"
+    ],
+  "link": "https://github.com/OliverPhillips1229/TripsLogApp",
+    "blurb": "Multi-entity travel log for destinations, activities & stays.",
+    "tags": [
+      "Relationships",
+      "EFCore"
+    ]
+  }
+]
