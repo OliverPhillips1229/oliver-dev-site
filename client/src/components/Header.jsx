@@ -8,9 +8,9 @@ export default function Header() {
       <div className="container" style={{display:'flex', alignItems:'center', justifyContent:'flex-end', gap:'1rem'}}>
         <nav style={{display:'flex', gap:'1rem', alignItems:'center'}}>
           <Link to="/">Home</Link>
-          <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
           <Link to="/blog">Blog</Link>
-          <Link to="/" state={{ scrollToContact: true }}>Contact</Link>
+          <Link to="/contact">Contact</Link>
           <ThemeToggle />
         </nav>
       </div>
