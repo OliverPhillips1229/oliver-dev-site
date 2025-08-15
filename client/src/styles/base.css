@@ -99,6 +99,6 @@ h1, h2, h3, h4, h5, h6, p, .brand-text, .brand-badge, body {
 }
 .brand-text {
   color: var(--teal_500);
-  font-family: var(--font-sans);
+  font-family: var(--font-mono) !important;
 }
 footer{ color:var(--gray_600); padding:2rem 0; text-align:center; margin-top:auto; }
