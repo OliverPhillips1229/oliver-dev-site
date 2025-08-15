@@ -7,11 +7,12 @@
     "node": ">=18.x"
   },
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "npm --prefix ../client ci && npm --prefix ../client run build"
+    "start": "npm --prefix server run start",
+    "heroku-postbuild": "npm --prefix server ci && npm --prefix client ci && npm --prefix client run build"
   },
   "dependencies": {
     "express": "^4.19.2",
     "path": "^0.12.7"
-  }
+  },
+  "private": true
 }
