@@ -26,7 +26,7 @@ function Home() {
 
   return (
     <div style={{display:'flex', alignItems:'center', marginTop:'2rem', marginBottom:'2rem', justifyContent:'center', gap:'2rem'}}>
-  <img src="/assets/logo.svg" alt="{O} logo" style={{width:'202px', height:'202px', flexShrink:0}} onError={e => { e.target.src = './assets/logo.svg'; }} />
+  <img src="assets/logo.svg" alt="{O} logo" style={{width:'202px', height:'202px', flexShrink:0}} />
       <div style={{textAlign:'left', maxWidth:'600px'}}>
         <h1 className="brand-badge" style={{fontSize:'2.5rem', marginBottom:'0.5rem'}}>
           <span className="brand-o">{'{O}'}</span> <span className="brand-text">Oliver.dev</span>
