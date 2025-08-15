@@ -42,7 +42,7 @@ function Home() {
           I believe in clean code, thoughtful UX, and rapid iteration. Whether collaborating with teams or working solo, I strive to deliver solutions that are both robust and delightful to use.
         </p>
         <p style={{lineHeight:1.7, margin:'0'}}>
-          Outside of coding, you'll find me learning new skills, listening to vinyl records, or experimenting with design and animation. If you'd like to connect or see more of my work, check out the Projects or Contact pages!
+          Outside of coding, you'll find me learning new skills, playing Dungeons & Dragons, or experimenting with design and animation. If you'd like to connect or see more of my work, check out the Projects or Contact pages!
         </p>
       </div>
     </div>
