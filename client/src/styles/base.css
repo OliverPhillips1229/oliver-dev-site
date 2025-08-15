@@ -91,7 +91,7 @@ a:hover{ text-decoration:underline }
   letter-spacing:.5px;
   font-weight:700;
 }
-h1, h2, h3, h4, h5, h6, p, .brand-text, .brand-badge, body {
+h1, h2, h3, h4, h5, h6, p, .brand-badge, body {
   font-family: var(--font-mono) !important;
 }
 .brand-o {
