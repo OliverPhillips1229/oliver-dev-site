@@ -5,8 +5,9 @@ import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 
+// Custom domain at root -> base '/'
 export default defineConfig({
-  base: '/',                 // custom domain at root
+  base: '/',
   plugins: [
     react(),
     mdx({
