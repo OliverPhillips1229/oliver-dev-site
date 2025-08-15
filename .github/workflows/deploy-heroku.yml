@@ -17,4 +17,3 @@ jobs:
           HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
         run: |
           git remote add heroku https://heroku:${HRKU-AArwExBxlTQPvCJgvmuBrfvTngKQp5TpuPxtnQp5qbfQ_____wyifooCb2xP}@git.heroku.com/${oliver-dev-site}.git
-          git push heroku HEAD:main -f
