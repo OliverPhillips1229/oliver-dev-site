@@ -7,7 +7,7 @@
       "Node",
       "EJS"
     ],
-  "link": "https://github.com/OliverPhillips1229/VinylVault",
+    "link": "https://github.com/OliverPhillips1229/VinylVault",
     "blurb": "MEN stack CRUD for vinyl collections with cover art & wishlists.",
     "tags": [
       "CRUD",
@@ -21,7 +21,7 @@
       ".NET",
       "MVC"
     ],
-  "link": "https://github.com/OliverPhillips1229/TicTacToe",
+    "link": "https://github.com/OliverPhillips1229/TicTacToe",
     "blurb": "Single-page game demonstrating model binding and controller/view comms.",
     "tags": [
       "Game",
@@ -34,11 +34,28 @@
       ".NET",
       "EF Core"
     ],
-  "link": "https://github.com/OliverPhillips1229/TripsLogApp",
+    "link": "https://github.com/OliverPhillips1229/TripsLogApp",
     "blurb": "Multi-entity travel log for destinations, activities & stays.",
     "tags": [
       "Relationships",
       "EFCore"
+    ]
+  },
+  {
+    "title": "Sound Circle Front End",
+    "tech": [
+      "React",
+      "Web Audio",
+      "Collaboration",
+      "Front-End"
+    ],
+    "link": "https://github.com/OliverPhillips1229/sound-circle-front-end",
+    "blurb": "A collaborative music creation platform built with React. Users can create, share, and remix sound circles in real time.",
+    "tags": [
+      "React",
+      "Web Audio",
+      "Collaboration",
+      "Front-End"
     ]
   }
 ]
