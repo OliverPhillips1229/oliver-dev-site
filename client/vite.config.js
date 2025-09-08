@@ -15,5 +15,8 @@ export default defineConfig({
       remarkPlugins: [remarkGfm],
       rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
     })
-  ]
+  ],
+  build: {
+    outDir: 'dist'
+  }
 })
